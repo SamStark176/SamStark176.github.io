@@ -1,12 +1,705 @@
 <!DOCTYPE html>
+<meta http-equiv="refresh" content="10" />
 <html lang="en">
+    
 <head>
+    <style>
+        #featured_img{
+            width: 350px;
+            height: 230px;
+            border-radius: 6px;
+            display: inline-block;
+            overflow: hidden;
+            z-index: 1;
+            top: 0;
+            cursor: pointer;
+            transition: all 0.6s;
+        }
+        #featured_img img{
+            cursor: pointer;
+            transition: all 0.4s;
+        }
+        #featured_img img:hover{
+            transform: scale(1.1);
+            filter: alpha(opacity=0);
+            opacity: 0.8;
+        }
+        ul{
+		list-style: none;
+	}
+	a{
+        text-decoration: none;
+    }
+	#container{
+		position: relative;
+		width: 1517px;
+		height: 350px;
+		margin: 20px auto;
+		overflow: hidden; /*溢出隐藏：只显示一张图片*/
+	}
+	#container .parent{
+		position: absolute;
+		width: 7600px; /*整个图片层长度：500*5=2500*/
+		height: 350px;
+	}
+	
+	#container .parent li{
+		float: left;
+		width: 1517px;
+		height: 100%;
+	}
+	#container .parent li img{
+		width: 100%;
+	}
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link  rel="icon" type="image/x-icon" href="https://okmarts.com/pub/media/favicon/stores/1/okmarts_ico_1.png" /> 
+    <link rel="stylesheet" href="css/index.css">   
+    <title>Okmarts.com | Industrial supply refrigeration compressor, Servo motor, Transmitter, Light Curtain, hmi, Encoder and many more</title>
 </head>
+
+
 <body>
-    123
+
+            <!--顶部颜色条 -->
+    <div class="top_color"></div>
+
+
+
+
+
+<div class="all">
+
+            <!-- 顶部文字 -->
+    <div class="top_text"> 
+            OKmarts.com Online Store | We provide leading brands of Compressors, Servo motors, Fan, VFD, HMI, Circuit Breaker, Air cylinder and more all over the world.
+    </div>
+<div class="top_text_r" >
+    <div class="top_text_r_t">
+        <a class="a_top" href="#">My Order</a> 
+    </div>
+
+    <div class="top_text_r_t">
+        <a class="a_top" href="#">News</a> 
+    </div>
+
+    <div class="top_text_r_t">
+         <a class="a_top" href="#">Help Center</a> 
+    </div>
+</div>  
+
+
+
+
+
+
+            <!-- 更多 -->
+<div class="more" >
+    <div style="display: inline-block;text-align: center;">
+        <li  class="father">
+            <img src="img/more.png" title="Catalog Menu" class="more_icon" />
+       
+        <ul class="son">
+            <li>Refrigeration Compressors
+                <ul class="son_s">
+                    Bitzer
+                </ul>
+            </li>
+
+            <li>Solenoid Valve</li>
+            <li>Servo Product</li>
+            <li>PLC</li>
+            <li>Encoder</li>
+            <li>FAN</li>
+            <li>VFD</li>
+            <li>Air Cylinder</li>
+            <li>Linear Guideway</li>
+            </ul>
+
+
+
+    </li>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div style="display: inline-block; margin-left: 5px;">
+        <img src="img/logo.png" width="120px"/>
+    </div>
+
+
+
+
+
+
+            <!-- 搜索框 -->
+<div class="search">
+    <input type="text" placeholder="Search for product name or model..." class="search_k">
+    
+    <input type="image" src="img/search.png" class="search_r" alt="Search" title="Search">
+    
+</div>
+
+            <!-- 用户部分 -->
+<div class="admi" title="My Account">
+    <img src="img/admi.png" width="15px" />
+    <a href="#" class="admi_a">&nbsp;&nbsp;My Account</a> 
+</div>
+
+<div class="admi_love" title="Wish List">
+    <img src="img/love.png" width="15px" />
+    <a href="#" class="admi_a">&nbsp;&nbsp;Wish List</a> 
+</div>
+
+<div class="admi_shop">
+    <a href="#"><img src="img/shop.png" width="25px" height="20px" /></a>
+</div>
+<div style="display: inline-block; color: red; font-size: 10px; margin-left: -14px; position: relative;bottom: 12px;">
+    0
+</div>
+</div>
+
+
+
+
+
+
+
+            <!-- 轮播图 -->
+
+<div id="container">
+	<ul class="parent" style="left: 0;">
+		<li><img src="img/banner_1.jpg"></li>
+		<li><img src="img/banner_2.jpg"></li>
+		<li><img src="img/banner_3.jpg"></li>
+		<li><img src="img/banner_2.jpg"></li>
+		<li><img src="img/banner_3.jpg"></li>
+        
+	</ul>
+</div>
+
+
+
+
+
+
+<div >
+
+    <div style="margin-left: 320px; margin-top: 20px; border-radius: 10px;">
+        <a href="#"><img src="img/JT170G-K-min.png" class="JT"/></a>
+    </div>
+
+<div style="clear:both;padding: 15px 0px 0px 15px; margin-top: -133px; margin-left: 790px;border-radius: 6px;background-color: white;border: solid rgb(211, 210, 210) 1px; height: 112px;width: 700px;">
+        Register now to get surprising gifts.
+
+    <div style="position: relative;top: 35px;  clear:both; background-color: #eb601b;  height: 40px;width: 90px;display: table-cell;vertical-align: middle;text-align: center; border-radius: 4px;   ">
+      <a href="#" style="text-decoration: none;color: white;background-color: #eb601b;">REGISTER</a>  
+    </div>
+      <a href="#"><img src="img/promotions-slider2.png" style="position: relative;top: -60px;margin-left: 550px;" /></a>  
+    </div>
+</div>
+
+
+
+
+
+
+            <!--HOT SALES OF THE MONTH-->
+
+<div style="margin-top: 90px;margin-left: 25px;">
+        <img src="img/label.png" width="30px" />
+    <div style="display: block;font-size: 25px;margin-top: -35px;margin-left: 45px;">
+        <b>HOT SALES OF THE MONTH</b> 
+    </div>
+</div>
+
+<div class="hot">
+    <div class="hot_img">
+        <img src="img/Tecumseh Compressor TRK5480Y-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Tecumseh Compressor TRK5480Y</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$437.00</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/Bristol Compressor H73A463DBEA-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Bristol Compressor H73A463DBEA</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$752.18</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/Sanyo Denki Compressor C-RN113H3C-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Sanyo Denki Compressor C-RN113H3C</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$500.00</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/Mitsubishi Compressor RB247YFY-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Sanyo Denki Compressor C-RN113H3C</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$622.00</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/GE Power Supply GE150-1050-MV-NA-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">GE Power Supply GE150/1050/MV-NA</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$134.62</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/Weintek HMI MT506TV46GWV-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Weintek HMI MT506TV46GWV</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$461.54</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/YINGB Light Curtain GMJD-08-4-J-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">YINGB Light Curtain GMJD-08-4-J</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$356.92</B>
+            </div>
+    </div>
+    <div class="hot_img">
+        <img src="img/Allen Bradley Servo Drive 2003-CSD3-01BX2-min.jpg" class="hot_i" />
+        <a href="#" class="hot_text">Allen Bradley Servo Drive 2003-CSD3-01BX2</a>
+            <div class="hot_num">
+                   <B style="background-color: #fff;">$692.31</B>
+            </div>
+            <div class="side_banner">
+                <img src="img/side_banner2-min.png" height="700px"/>
+        </div>   
+    </div> 
+</div>
+
+
+
+
+
+
+
+
+
+                <!--FEATURED BY CATEGORY-->
+<div style="margin-top: 90px;margin-left: 25px;">
+        <img src="img/hot.png" width="30px" />
+    <div style="display: block;font-size: 25px;margin-top: -35px;margin-left: 45px;">
+        <b>FEATURED BY CATEGORY</b> 
+    </div>
+</div>
+
+
+<div class="featured">
+    <div id="featured_img">
+        <img src="img/slider1.jpg" />
+    </div>
+   <div class="featured_img_s">
+        <img src="img/Tecumseh Compressor RK5480Y-min.jpg" class="featured_img_i"/>
+                  <a href="#" class="featured_a">Tecumseh Compressor RK5480Y </a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$398.00</b>
+                     
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Mitsubishi Compressor RE277NRAMT-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">Mitsubishi Compressor RE277NRAMT</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$388.00</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Sanyo Denki Compressor C-2RN153H3A-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">Sanyo Denki Compressor C-2RN153H3A</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$576.92</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Bristol Compressor H73A623DBEA-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">Bristol Compressor H73A623DBEA</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$1000.00</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Rechi Compressor 44A341A-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">Rechi Compressor 44A341A<p></p>&nbsp;</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$449.22</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Tecumseh Compressor AEA5465EXD-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">Tecumseh Compressor AEA5465EXD</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$676.92</b>
+    </div>
+</div>
+
+
+<div class="featured">
+    <div id="featured_img">
+        <img src="img/slider2-min.png" />
+    </div>
+   <div class="featured_img_s">
+        <img src="img/Delta Servo Motor ECMA-C10804G7-min.jpg" class="featured_img_i"/>
+                  <a href="#" class="featured_a">Delta Servo Motor ECMA-C10804G7</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$692.31</b>
+                     
+    </div>
+    <div class="featured_img_s">
+        <img src="img/ESTUN Servo Motor EMJ-08APA22-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">ESTUN Servo Motor EMJ-08APA22</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$460.00</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Festo Servo Motor MTR-AC-70-3S-AB-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">Festo Servo Motor MTR-AC-70-3S-AB</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$2,539.20</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/LS Servo Drive L7NA001B-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">LS Servo Drive L7NA001B<p></p>&nbsp;</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$1,153.85</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Yaskawa Servo Motor SGMAS-12A2A4B-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">Yaskawa Servo Motor SGMAS-12A2A4B</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$1,076.92</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/Teco Servo Drive SDP-20B-E-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">Mirle Servo Drive SDP-20B-E<p></p>&nbsp;</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$651.92</b>
+    </div>
+</div>
+
+<div class="featured">
+    <div id="featured_img">
+        <img src="img/slider3-min.png" />
+    </div>
+   <div class="featured_img_s">
+        <img src="img/KOGANEI Air Cylinder CDA16X25-B-min.png" class="featured_img_i"/>
+                  <a href="#" class="featured_a">KOGANEI Air Cylinder CDA16X25-B</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$46.96</b>
+                     
+    </div>
+    <div class="featured_img_s">
+        <img src="img/KOGANEI Air Cylinder CDA16X10-B-R-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">KOGANEI Air Cylinder CDA16X10-B-R</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$45.91</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/KOGANEI Air Cylinder BDAS6X15-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">KOGANEI Air Cylinder BDAS6X15</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$76.92</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/MINDMAN Air Cylinder MCJA-12-20-25M-min.jpg"class="featured_img_i" />
+                  <a href="#" class="featured_a">MINDMAN Air Cylinder MCJA-12-20-25M</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$80.00</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/KOGANEI Air Cylinder NDA16X30-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">KOGANEI Air Cylinder NDA16X30</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$77.85</b>
+    </div>
+    <div class="featured_img_s">
+        <img src="img/KOGANEI Air Cylinder CHDP-16-M-min.png"class="featured_img_i" />
+                  <a href="#" class="featured_a">KOGANEI Air Cylinder CHDP-16-M</a>  
+                        <b style="color: #eb601b;margin-left: 5px;top: 10PX;background-color: #fff;">$384.61</b>
+    </div>
+</div>
+
+
+
+
+                <!--NEWS & KNOWLEDGE-->
+<div style="margin-top: 90px;margin-left: 25px;">
+             <img src="img/good.png" width="30px" />
+    <div style="display: block;font-size: 25px;margin-top: -35px;margin-left: 45px;">
+        <b>NEWS & KNOWLEDGE</b> 
+    </div>
+</div>
+
+
+<div class="news_img">
+    <img src="img/The worker is operating on the screw air compressor-min.png" class="new_img_1"/> 
+</div>
+<div class="news_img">
+    <img src="img/An air compressor-min.png" class="new_img_1"/> 
+</div>
+<div class="news_img">
+    <img src="img/A series of gas sensors-min.png" class="new_img_1"/> 
+</div>
+
+<div class="mar">
+    <h2 style="background-color: #3a3a3a;color: #fff;">3</h2>
+    MAR
+</div>
+<div class="mar_2">
+    <h2 style="background-color: #3a3a3a;color: #fff;">2</h2>
+    MAR
+</div>
+<div class="mar_3">
+    <h2 style="background-color: #3a3a3a;color: #fff;">1</h2>
+    MAR
+</div>
+
+<div style="display: inline-block;">
+<div class="news_text1">
+    How to Realize Frequency Conversion Transformation forthe Air Compressor
+</div>
+<div class="news_text_d1">
+    For a long time, due to the lack of understanding of air compressors bysome enterprises
+</div>
+
+    <a href="#" class="news_read">Read more</a>
+
+</div>
+<div style="display: inline-block;">
+<div class="news_text2">
+    Factors Affecting Air Compressor Performance in Long-Period Operation
+</div>
+<div class="news_text_d2">
+    Through the research on the use and periodic failure factors ofcompressors in recent years, it is known that bearing clearance.
+</div>
+
+    <a href="#" class="news_read">Read more</a>
+
+</div>
+<div style="display: inline-block;">
+    <div class="news_text2">
+        lntroduction to the Principle,Types and Advantages ofGas Sensors
+    </div>
+    <div class="news_text_d2">
+        The gas sensor is used to detect specific gases in a certain area andcontinuously measure the concentration of gases as well.
+    </div>
+    
+        <a href="#" class="news_read">Read more</a>
+    
+    </div>
+
+
+
+            <!-- Foot -->
+<div style="width: auto; background-color: black;vertical-align: middle;text-align: center;">   
+
+    <div style="display:inline-block;height: auto;background-color: rgb(0, 0, 0);color: #fff;text-align: center;">   
+         BACK TO THE TOP
+    </div>
+    
+    <div style="display:inline-block;width:0;vertical-align:middle; background-color: rgb(0, 0, 0); ">
+        <a href="#top" style="background-color: black;" ><img src="img/back_top.png" width="30px" /></a>
+    </div>
+</div>  
+
+<div class="foot">
+
+    <div class="search_text">
+        <div style="color: rgb(170, 170, 170);font-size: 15px;background-color: #252529;">
+            Stay tuned to new products and latest promotions.
+        </div>
+
+        <div style="margin-top: 45px;background-color: #252529;">
+            <span>
+                <input type="text" name="condition" placeholder="Email Address" class="search_icon"> 
+            </span>
+
+            <span style="background-color: #252529;">
+                <input type="button" title="Subscribe" value="SUBSCRIBE"  class="button">
+            </span>
+        </div>
+        <div style="color: #424242;background-color: #252529;font-size: 14px;">
+            *We’ll never share your email address with a third-party.
+        </div>
+    </div>
+
+
+<div style="border: solid rgb(99, 99, 99) 0.1px;position: relative;top: 250px;margin-left: 25px;width: 1450px;"></div>
+<div style="border: solid rgb(99, 99, 99) 0.1px;position: relative;top: 470px; margin-left: 25px;width: 1450px;"></div>
+    <div style="margin-left: 25px;background-color: #252529;margin-top: 280px;width: 1460px;color: #8b8b8b;">
+       <div style="background-color: #252529;color: #8b8b8b;">
+           Most Searched Keywords :<br />&nbsp;
+        </div>
+        
+        <a class="name" href="#">Mitsubishi compressor</a> |
+        <a class="name" href="#">Bristol Compressor</a> |
+        <a class="name" href="#">Tecumseh Compressor</a> |
+        <a class="name" href="#">Hitachi Compressor</a> |
+        <a class="name" href="#">Copeland Compressor</a> |
+        <a class="name" href="#">Danfoss Compressor</a> |
+        <a class="name" href="#">Sanyo Denki Compressor</a> |
+        <a class="name" href="#">Panasonic Compressor</a> |
+        <a class="name" href="#">LG Compressor </a>|
+        <a class="name" href="#">Daikin Compressor </a>|
+        <a class="name" href="#">Toshiba Compressor </a>|
+        <a class="name" href="#"> GMCC Compressor</a> |
+        <a class="name" href="#"> Bitzer Compressor</a> |
+        <a class="name" href="#"> TECO Servo</a> |
+        <a class="name" href="#"> Yaskawa Servo</a> |
+        <a class="name" href="#"> LS Servo</a> |
+        <a class="name" href="#"> Mitsubishi Servo</a> |
+        <a class="name" href="#"> Delta Servo </a>|
+        <a class="name" href="#"> SIEMENS Servo </a>|
+        <a class="name" href="#"> TAMAGAWA Servo </a>|
+        <a class="name" href="#"> MINDMAN Air Cylinder </a>|
+        <a class="name" href="#"> CKD Air Cylinder </a>|
+        <a class="name" href="#"> Danfoss Transmitter </a>|
+        <a class="name" href="#"> Meas Transmitter</a> |
+        <a class="name" href="#"> VECTOR Transmitter </a>|
+        <a class="name" href="#">Yaskawa VFD</a> |
+        <a class="name" href="#">Holip VFD </a>|
+        <a class="name" href="#"> TAIAN VFD</a> |
+        <a class="name" href="#"> LS Mecapion Encoder</a> |
+        <a class="name" href="#"> Autonics Encoder</a> |
+        <a class="name" href="#"> Lika Encoder</a> |
+        <a class="name" href="#"> Renishaw Encoder</a> |
+        <a class="name" href="#"> Weintek HMI </a>|
+        <a class="name" href="#"> Siemens HMI</a> |
+        <a class="name" href="#"> GE Power Supply </a>|
+        <a class="name" href="#"> Weidmuller Power</a>|
+        <a class="name" href="#">  Supply</a> 
+        <a class="name" href="#"> ZIPPY Power Supply</a> |
+        <a class="name" href="#"> CKD</a>|
+        <a class="name" href="#">Solenoid Valve </a>|
+        <a class="name" href="#"> Bosch Rexroth Solenoid Valve </a>|
+        <a class="name" href="#"> DAIKIN Solenoid Valve</a> |
+        <a class="name" href="#"> YINGB Safety Curtain</a> |
+        <a class="name" href="#"> Ebmpapst FAN</a> |
+        <a class="name" href="#">   Y.S.TECH FAN </a>|
+        <a class="name" href="#"> Schneider PLC</a> |
+        <a class="name" href="#">Omron PLC</a> |
+        <a class="name" href="#">  Festo Solenoid Coil </a>|
+        <a class="name" href="#">   LIROJY Sensor </a>|
+        <a class="name" href="#"> Siemens Circuit Breaker</a>
+            
+    </div>
+
+    
+</div>
+    
+
+<div style="background-color: #252529;">
+    <table width="1450"border="0" cellpadding="0" cellspacing="0" height="150" class="as">
+ 
+        <tr>
+            <td class="td_down"><a href="#" class="a_foot">My Account</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Privacy Policy</a></td>
+            <td class="td_down"><a href="#" class="a_foot">About Us</a></td>
+                <td class="td_down">CONTACT US</td>
+       <tr>
+            <td class="td_down"><a href="#" class="a_foot">Payment Methods</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Enable Cookies</a></td>
+            <td class="td_down"><a href="#" class="a_foot">News & Knowledge</a></td>
+                <td class="td_down"><a href="#" class="a_foot">support@okmarts.com</a></td>
+        <tr>
+            <td class="td_down"><a href="#" class="a_foot">Buying Guide</a.</td>
+            <td class="td_down"><a href="#" class="a_foot">Terms And Conditions</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Why Okmarts?</a></td>
+                <td class="td_down"><a href="#" class="a_foot">service@okmarts.com</a></td>
+        <tr>
+            <td class="td_down"><a href="#" class="a_foot">Shipping Guide</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Return Policy</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Our Commitment</a></td>
+                <td class="td_down"><a href="#" class="a_foot">+86-28-84166335</a></td>
+        <tr>
+            <td class="td_down"><a href="#" class="a_foot">FAQs</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Customer Service</a></td>
+            <td class="td_down"><a href="#" class="a_foot">Site Map</a></td>
+            <td class="icon_k">
+                <div  class="icon_f">
+                    <img src="img/face.png" title="Facebook"class="icon_f"/>
+                </div>
+                <div  class="icon_t">
+                    <img src="img/tw.png" title="Twitter"class="icon_t"/>
+                </div>
+                <div  class="icon_i">
+                    <img src="img/instagram.png" title="Instagram"class="icon_i"/>
+                </div>
+            </td>
+           
+               
+            
+        </table>
+       
+    <div style="width: 1450px;margin-left: 25px;background-color: #252529;color: #8b8b8b;font-size: 12px;margin-top: -180px;">   
+        Disclaimer: All brand names, model or type numbers or marks listed on the website are owned by their respective manufacturers. These terms are used for identification purposes only and are not intended to indicate affiliation with OEM companies. Product pictures shown on the website are for illustrative purposes only and the actual item may vary in design, specification, etc. Confirm at the time of purchase if you are unsure.
+    </div> 
+    <div style="width: 1450px;margin-left: 25px;background-color: #252529;color: #8b8b8b;font-size: 12px;margin-top: 25px;">
+        Links : <a href="#" class="link">Pop-Up Campers</a>
+    </div>
+    <div style="width: 1450px;margin-left: 25px;background-color: #252529;color: #8b8b8b;font-size: 12px;margin-top: 25px;">
+        © okmarts.com eCommerce. 2017-2022. All Rights Reserved
+    </div>
+    <div style="text-align: center;background-color: #252529; width: 400px;height: 50px;display: inline-block;position: relative;left: 1000px;top: -50px;">
+        <img src="img/payments.png"style="background-color: #252529;" />
+    </div>
+
+    
+</div>
+
+
+
+
+
+<div class="top_button">
+   <a href="#top"style="text-decoration:none;background-color: #5e5e5e;color: #fff;vertical-align: middle;">top
+    ^</a> 
+</div>
+
+
 </body>
+
+<script type="text/javascript">
+	
+    var imgShow = document.getElementsByClassName('parent')[0],
+        dotList = document.querySelectorAll('.dots >.clearfix > li');
+    
+    var dotLen = dotList.length,
+        index = 0; //轮播层的图片索引，0表示第一张
+    
+    
+    
+    
+    // 自动轮播
+    var timer;
+    function autoPlay() {
+        timer = setInterval(function() {
+            var right;
+            var imgLeft = imgShow.style.left;
+            if(imgLeft === "-2000px") {
+                right = 0;
+            }
+            else{
+                right = parseInt(imgLeft) - 1517;
+            }
+            imgShow.style.left = right + "px";
+        } ,2500)
+    }
+    autoPlay();
+    
+    
+    </script>
+      <script src="/vue.js">
+   
+    </script>
+    <script>
+             new Vue({
+            el: '#app',
+            data:{
+                name:0,
+                isactive:false
+               
+            },
+            methods:{
+         
+             
+            },
+        })
+    </script>
 </html>
